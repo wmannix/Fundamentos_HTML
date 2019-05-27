@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width-device=width">
-	<title>Información General</title>
+	<title>Educación</title>
 </head>
 <body>
 	<head>
@@ -28,43 +28,96 @@
 		</svg>
 	</head>
 	<h1>Hoja de Vida</h1>
-	<p>
-		<h3>Nombre: </h3>
-		<h2>William</h2>
-	</p>
-	<p>
-		<h3>Apellidos: </h3>
-		<h2>Mannix Arnoldt</h2>
-	</p>
-	<p>
-		<h3>Fecha de nacimiento: </h3> 
-		<h2>05 de junio de 1965</h2>
-	</p>
-	<p>
-		<h3>Lugar de nacimiento: </h3> 
-		<h2>San José, Costa Rica</h2>
-	</p>
+		<p>
+			<h3>Nombre: </h3>
+			<h2>William</h2>
+		</p>
+		<p>
+			<h3>Apellidos: </h3>
+			<h2>Mannix Arnoldt</h2>
+		</p>
+		<p>
+			<h3>Fecha de nacimiento: </h3> 
+			<h2>05 de junio de 1965</h2>
+		</p>
+		<p>
+			<h3>Lugar de nacimiento: </h3> 
+			<h2>San José, Costa Rica</h2>
+		</p>
 	<p title="Menú básico">
-		<a href="index.html"><strong>Inicio</strong></a> | <a href="html/educacion.html">Educación</a> | <a href="html/experiencia.html">Experiencia</a>
+		<a href="../index.html"><strong>Inicio</strong></a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
 	</p>
-	<p>
-		<h2>Información Personal</h2>
-		<img src="images/foto.png" alt="Foto Personal" title="Logo blog de conciertos" width="212px" height="227px" />
-	</p>
-	<p title="Perfil Personal">
-		
-	</p>
+	<h2>Educación</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr> 
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>				
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Agregar Estudios</h3>
+	<form title="Agregar Estudios">
+		<p>
+			<label for="year">Año: </label>
+			<select name="year">
+				<option value="1">2019</option>
+				<option value="1">2018</option>
+				<option value="1">2017</option>
+				<option value="1">2016</option>
+				<option value="1">2015</option>
+				<option value="1">2014</option>
+				<option value="1">2013</option>
+				<option value="1">2012</option>
+				<option value="1">2011</option>
+				<option value="1">2010</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Institución: </label>
+			<input type="text" name="institucion" required placeholder="Ej: NextU">
+		</p>
+		<p>
+			<label for="lugar">Lugar: </label>
+			<textarea name="lugar" cols="30" rows="5" ></textarea>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+	</form>
 	<br/>
 	<footer>
 		<strong>Contacto</strong><br/>
 		<p>
-			<img src="images/mail.png"> <a href="mailto:wmannix@cicr.com?subject=feedback">wmannix@cicr.com</a>
+			<img src="../images/mail.png"> <a href="mailto:wmannix@cicr.com?subject=feedback">wmannix@cicr.com</a>
 		</p>
 		<p>
-			<img src="images/phone.png"> 9999-9999
+			<img src="../images/phone.png"> 9999-9999
 		</p>
 		<p>
-			<img src="images/address.png"> Heredia, Costa Rica
+			<img src="../images/address.png"> Heredia, Costa Rica
 		</p>
 	</footer>
 </body>
