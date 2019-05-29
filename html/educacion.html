@@ -27,7 +27,8 @@
 	 		</g>
 		</svg>
 	</head>
-	<h1>Hoja de Vida</h1>
+	<section>
+		<h1>Hoja de Vida</h1>
 		<p>
 			<h3>Nombre: </h3>
 			<h2>William</h2>
@@ -44,69 +45,74 @@
 			<h3>Lugar de nacimiento: </h3> 
 			<h2>San José, Costa Rica</h2>
 		</p>
-	<p title="Menú básico">
-		<a href="../index.html"><strong>Inicio</strong></a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
-	</p>
-	<h2>Educación</h2>
-	<table border="1" cellpadding="10" cellspacing="0">
-		<thead>
-			<tr>
-				<th>Año</th>
-				<th>Institución</th>
-				<th>Lugar</th>
-				<th>¿Culminó?</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>1994</td>
-				<td>Instituto Superior San Ignaio de Loyola</td>
-				<td>Lima,Perú</td>
-				<td>Sí</td>
-			</tr> 
-			<tr>
-				<td>1999</td>
-				<td>Instituto Tecnológico de Costa Rica</td>
-				<td>Cartago, Costa Rica</td>
-				<td>Sí</td>
-			</tr>
-			<tr>
-				<td>2017</td>
-				<td>CENFOTEC</td>				
-				<td>San José, Costa Rica</td>
-				<td>Sí</td>
-			</tr>
-		</tbody>
-	</table>
-	<h3>Agregar Estudios</h3>
-	<form title="Agregar Estudios">
-		<p>
-			<label for="year">Año: </label>
-			<select name="year">
-				<option value="2019">2019</option>
-				<option value="2018">2018</option>
-				<option value="2017">2017</option>
-				<option value="2016">2016</option>
-				<option value="2015">2015</option>
-				<option value="2014">2014</option>
-				<option value="2013">2013</option>
-				<option value="2012">2012</option>
-				<option value="2011">2011</option>
-				<option value="2010">2010</option>
-			</select>
+	</section>
+	<nav>
+		<p title="Menú básico">
+			<a href="../index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
 		</p>
-		<p>
-			<label for="institution">Institución: </label>
-			<input type="text" name="institution" required placeholder="Ej: NextU">
-		</p>
-		<p>
-			<label for="place">Lugar: </label>
-			<textarea name="place" cols="30" rows="5" ></textarea>
-		</p>
-		<p>
-			<input type="submit" value="Enviar">
-		</p>
-	</form>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1994</td>
+					<td>Instituto Superior San Ignaio de Loyola</td>
+					<td>Lima,Perú</td>
+					<td>Sí</td>
+				</tr> 
+				<tr>
+					<td>1999</td>
+					<td>Instituto Tecnológico de Costa Rica</td>
+					<td>Cartago, Costa Rica</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>CENFOTEC</td>				
+					<td>San José, Costa Rica</td>
+					<td>Sí</td>
+				</tr>
+			</tbody>
+		</table>
+		<h3>Agregar Estudios</h3>
+		<form title="Agregar Estudios">
+			<p>
+				<label for="year">Año: </label>
+				<select name="year">
+					<option value="2019">2019</option>
+					<option value="2018">2018</option>
+					<option value="2017">2017</option>
+					<option value="2016">2016</option>
+					<option value="2015">2015</option>
+					<option value="2014">2014</option>
+					<option value="2013">2013</option>
+					<option value="2012">2012</option>
+					<option value="2011">2011</option>
+					<option value="2010">2010</option>
+				</select>
+			</p>
+			<p>
+				<label for="institution">Institución: </label>
+				<input type="text" name="institution" required placeholder="Ej: NextU">
+			</p>
+			<p>
+				<label for="place">Lugar: </label>
+				<textarea name="place" cols="30" rows="5" ></textarea>
+			</p>
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+		</form>
+	</section>
 	<br/>
 	<footer>
 		<strong>Contacto</strong><br/>
